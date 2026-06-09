@@ -4,6 +4,7 @@ import json
 import time
 
 HOST = "127.0.0.1"
+IP_REMOTO = "10.12.3.86"   # ← IP da Máquina A (ajuste se necessário)
 PORTA_LOCAL = 5001
 PORTA_REMOTA = 5000
 
@@ -259,3 +260,6 @@ print(
 sistema.iniciar_eleicao(8)
 
 sistema.mostrar_estado()
+
+while True:
+    time.sleep(1)
