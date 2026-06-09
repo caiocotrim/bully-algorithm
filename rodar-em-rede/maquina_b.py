@@ -259,6 +259,3 @@ print(
 sistema.iniciar_eleicao(8)
 
 sistema.mostrar_estado()
-
-while True:
-    time.sleep(1)
